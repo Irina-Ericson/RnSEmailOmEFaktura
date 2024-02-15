@@ -551,7 +551,7 @@
                                                                 </InArgument>
                                                               </ui:ExcelReadRange.Range>
                                                             </ui:ExcelReadRange>
-                                                            <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{int_ControlMonth, &quot;x&quot;}]" DataTable="[dt_ProtokolHantering]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="338,186" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+                                                            <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{int_ControlMonth, &quot;x&quot;}]" DataTable="[dt_ProtokolHantering]" DisplayName="Add Data Row markering nuvarande månad" sap:VirtualizedContainerService.HintSize="338,186" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
                                                             <ui:ExcelWriteRange AddHeaders="True" DataTable="[dt_ProtokolHantering]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="338,88" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_1" SheetName="Mån hantering av rapport">
                                                               <ui:ExcelWriteRange.StartingCell>
                                                                 <InArgument x:TypeArguments="x:String">
